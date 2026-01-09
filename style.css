@@ -3,13 +3,13 @@
     padding: 0;
      box-sizing: border-box;
 }
-/* header start */
+/* header  */
 .header{
     width: 100%;
     height: 80px;
 display: flex;
 align-items: center;
-padding: o 60px;
+padding: 0 60px;
 justify-content: space-between;
 
 }
@@ -47,8 +47,8 @@ border-radius: 4px;
 .header-btn button:hover{
     background-color:burlywood;
 }
-/* header close */
- /* Banner Start */
+/*  close */
+ /* Banner  */
 .banaer{
     background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-size: cover;
@@ -126,10 +126,10 @@ inset:0;
     background-color:rebeccapurple;
     transition: all 0.3s ease ;
 }
-/* Banner end */
-    /* Note Section Start */
+/*  end */
+    /* Note Section  */
 #note{
-    padding: 100px; 
+    padding: 100px 0; 
 }
  .note-container{
     width: 85%;
@@ -158,9 +158,7 @@ inset:0;
     background-color: #F95555;
     border-radius: 50%;
     padding: 8px;
-    /* justify-items: center; */
-    /* text-align: center; */
-    /* align-items: center; */
+    
 }
 .note-card h4{
     font-size: 24px;
@@ -171,6 +169,60 @@ white-space: nowarp;
 .note-card p{
     font-size: 16px;
 }
+    /* End */
+    /* Second Barin Section  */
+.second-barin{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+ .container{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
 
+.barin-imagae img{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.barin-content{
+    max-width: 500px;
+}
+.section-tag {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: bolder;
+letter-spacing: 1px;
+}
+.barin-content h2{
+    font-size: 48px;
+    margin: 15px 0;
+    color:#001931;
+}
+.description{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.list li::before{
+content: url(/B13-A01-Knowledge-Vault/assets/CheckCircle.png);
+position: absolute;
+left: 0;
+cursor: pointer;
 
-    /* Note Section End */
+}
+    /*  End */
+
