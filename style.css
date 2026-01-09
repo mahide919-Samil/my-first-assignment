@@ -127,4 +127,50 @@ inset:0;
     transition: all 0.3s ease ;
 }
 /* Banner end */
-    
+    /* Note Section Start */
+#note{
+    padding: 100px; 
+}
+ .note-container{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.note-heading h3{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.note-heading p{
+    font-size: 16px;
+}
+#note .note-container .note-box{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+}
+.note-box .note-card{
+    padding:30px;
+    max-width: 250px;
+}
+.note-card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 8px;
+    /* justify-items: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.note-card h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+white-space: nowarp;
+}
+.note-card p{
+    font-size: 16px;
+}
+
+
+    /* Note Section End */
