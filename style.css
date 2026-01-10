@@ -95,6 +95,10 @@ inset:0;
     border-radius: 20PX;
     font-size: 13PX;
     margin-bottom: 16px;
+    cursor: pointer;
+}
+.badge:hover{
+    background-color: darkturquoise;
 }
 .banner-content h1{
     font-size: 52px;
